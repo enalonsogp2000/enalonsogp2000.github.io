@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+    <!--link favicon-->
+    <link rel="icon" type="image/png" href="../assets/images/favicon.jpg">
+    <!--link libreria leafletjs-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" >
+   
+    <!--Link to css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Link box-icon-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+     <!-- Fontawesome icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" >
+    
+
+
+
+</head>
+<body>
+    <!-- Start Header-->
+        <header>
+            <nav class="nav container">
+                <!--Logotipo-->
+                <a href="../index.html" class="logo">
+                    <img src="../assets/images/logo.png" alt="Logotipo" title="Logotipo">
+                </a>
+                <!--Nav links-->
+                <ul class="navbar">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../views/galeria.html">Galeria</a></li>
+                    <li><a href="../views/presupuesto.html">Presupuesto</a></li>
+                    <li><a href="../views/contacto.html" class="active">Contacto</a></li>
+                </ul>
+                <!--Icons-->
+                <div class="nav-icons">
+                    <a href="" class="user"><i class="bx bxs-user"></i></a>
+                    <a href="" class="cart"><i class="bx bxs-cart"></i></a>
+                
+                </div>
+            </nav>
+        </header>
+        <!-- End header-->
+
+        <!--Star Main-->
+   
+        <main>
+        <section class = "contact-section">
+            <div class = "contact-bg">
+              <h3>Contáctenos</h3>
+              <h2>Contactanos</h2>
+              <div class = "line">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda iste facilis quos impedit fuga nobis modi debitis laboriosam velit reiciendis quisquam alias corporis, maxime enim, optio ab dolorum sequi qui.</p>
+            </div>
+      
+      
+            <div class = "contact-body">
+              <div class = "contact-info">
+                <div>
+                  <span><i class = "fas fa-mobile-alt"></i></span>
+                  <span>Número de Contacto.</span>
+                  <span class = "text">+34 12 3456 789</span>
+                </div>
+                <div>
+                  <span><i class = "fas fa-envelope-open"></i></span>
+                  <span>E-mail</span>
+                  <span class = "text">johndoe123@gmail.com</span>
+                </div>
+                <div>
+                  <span><i class = "fas fa-map-marker-alt"></i></span>
+                  <span>Dirección</span>
+                  <span class = "text">calle cervantes madrid </span>
+                </div>
+                <div>
+                  <span><i class = "fas fa-clock"></i></span>
+                  <span>Horario de Apertura</span>
+                  <span class = "text">Lunes - Viernes (9:00 AM to 3:00 PM)</span>
+                </div>
+              </div>
+      
+              <div class = "contact-form">
+                <form>
+                  <div>
+                    <input type = "text" class = "form-control" placeholder="Primer Nombre">
+                    <input type = "text" class = "form-control" placeholder="Segundo Nombre">
+                  </div>
+                  <div>
+                    <input type = "email" class = "form-control" placeholder="E-mail">
+                    <input type = "text" class = "form-control" placeholder="Teléfono">
+                  </div>
+                  <textarea rows = "5" placeholder="Mensaje" class = "form-control"></textarea>
+                  <input type = "submit" class = "send-btn" value = "Enviar Mensaje">
+                </form>
+      
+                <div>
+                  <img src = "../assets/images/contacto/contact-png.png" alt = "Logotpio Contacto">
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div id="map">
+            <iframe 
+                width="425" 
+                height="350" 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-3.6993455886840825%2C40.413516471652635%2C-3.694866299629212%2C40.41535033755516&amp;layer=mapnik&amp;marker=40.41443341085141%2C-3.6971059441566467" 
+                style="border: 1px solid black;" 
+                allowfullscreen 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <br>
+            <a href="https://www.openstreetmap.org/?mlat=40.414433&amp;mlon=-3.697106#map=19/40.414433/-3.697106">Ver el mapa más grande</a>
+        </div>
+        
+        
+            
+       
+          
+            
+       
+        </main>    
+        <!--End main-->
+        
+        <!--Start footer-->
+        <!--Foster-->
+     <footer>
+      <div class="footer_main">
+          <div class="footer_tag">
+              <h2>Localización</h2>
+              <p>España</p>
+              <p>Italai</p>
+              <p>Francia</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Enlaces Rápidos</h2>
+              <p>Inicio</p>
+              <p>Galeria</p>
+              <p>Presupuestos</p>
+              <p>Contacto</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Contacto</h2>
+              <p>+34 12 3456 789</p>
+              <p>+34 25 5568456</p>
+              <p>johndoe123@gmail.com</p>
+              <p>comida_casera@gmail.com</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Nuestros Servicios</h2>
+              <p>Entrega rápida</p>
+              <p>Pagos fáciles</p>
+              <p>24 x 7 Servicios</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Redes Sociales</h2>
+              <a href="https://www.facebook.com"><i class='bx bxl-facebook-square'></i></a>
+              <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+              <a href="https://www.instagram.com"><i class='bx bxl-instagram' ></i></a>
+              <a href="https://www.linkedin.com"><i class='bx bxl-linkedin' ></i></a>
+          </div>
+          <div class="footer_tag">
+              <h2>Aviso Legal</h2>
+              <p>Este sitio web es solo un ejemplo de una prueba web.</p> 
+          </div>
+      </div>
+  </footer> 
+  <!--end footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <!--Api Script-->
+         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+         <!--Api ruteo script-->
+         <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+        <!--Script contacto-->
+         <script src="../js/contacto.js"></script>
+</body>
+</html>

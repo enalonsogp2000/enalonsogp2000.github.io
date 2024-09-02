@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Fast Food</title>
+    <!--link favicon-->
+    <link rel="icon" type="image/png" href="../assets/images/favicon.jpg" >
+    <!--Link to css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Box Icon-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <!-- Incluir la librería de jQuery para la galería dinámica -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <!-- Start Header-->
+    <header>
+      <nav class="nav container">
+        <!--Logotipo-->
+        <a href="../index.html" class="logo">
+          <img src="../assets/images/logo.png" alt="Logotipo" title="Logotipo" >
+        </a>
+        <!--Nav links-->
+        <ul class="navbar">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../views/galeria.html" class="active">Galeria</a></li>
+          <li><a href="../views/presupuesto.html">Presupuesto</a></li>
+          <li><a href="../views/contacto.html">Contacto</a></li>
+        </ul>
+        <!--Icons-->
+        <div class="nav-icons">
+          <a href="" class="user"><i class="bx bxs-user"></i></a>
+          <a href="" class="cart"><i class="bx bxs-cart"></i></a>
+        </div>
+      </nav>
+    </header>
+    <!-- End header-->
+
+    <!--Inicio main-->
+    <main>
+      <div class="menu" id="galeria">
+          <h1>Nuestro <span>Carta</span></h1>
+         
+              <!--COntenido para la galeria-->
+          <div class="menu_box" id="galleryBox">
+              <!-- Las tarjetas de imagen se insertarán aquí dinámicamente -->
+          </div>
+      </div>
+    </main>
+     <!--Foster-->
+     <footer>
+      <div class="footer_main">
+          <div class="footer_tag">
+              <h2>Localización</h2>
+              <p>España</p>
+              <p>Italai</p>
+              <p>Francia</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Enlaces Rápidos</h2>
+              <p>Inicio</p>
+              <p>Galeria</p>
+              <p>Presupuestos</p>
+              <p>Contacto</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Contacto</h2>
+              <p>+34 12 3456 789</p>
+              <p>+34 25 5568456</p>
+              <p>johndoe123@gmail.com</p>
+              <p>comida_casera@gmail.com</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Nuestros Servicios</h2>
+              <p>Entrega rápida</p>
+              <p>Pagos fáciles</p>
+              <p>24 x 7 Servicios</p>
+          </div>
+          <div class="footer_tag">
+              <h2>Redes Sociales</h2>
+              <a href="https://www.facebook.com"><i class='bx bxl-facebook-square'></i></a>
+              <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+              <a href="https://www.instagram.com"><i class='bx bxl-instagram' ></i></a>
+              <a href="https://www.linkedin.com"><i class='bx bxl-linkedin' ></i></a>
+          </div>
+          <div class="footer_tag">
+              <h2>Aviso Legal</h2>
+              <p>Este sitio web es solo un ejemplo de una prueba web.</p> 
+          </div>
+      </div>
+  </footer>   
+
+ 
+    <!--Script galeria-->
+    <script src="../js/galeria.js"></script>
+
+
+  </body>
+</html>

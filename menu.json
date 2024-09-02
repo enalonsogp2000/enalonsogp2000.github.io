@@ -1,0 +1,63 @@
+[
+	{
+		"id": 1,
+		"name": "Hamburguesa vegana",
+		"price": "$9 $",
+		"image": [
+			{
+				"url": "./assets/images/hamburguesa-veganaa.jpg",
+				"height": 881,
+				"width": 1200
+				
+				
+				
+			}
+			
+		]
+	},
+
+	{
+		"id": 2,
+		"name": "nachos",
+		"price": "7.50 $",
+		"image": [
+			{
+				"url": "./assets/images/nachos.jpg",
+				"width": 2121,
+				"height": 1414
+			
+				
+			}
+		]
+	},
+
+	{
+		"id": 3,
+		"name": "sandwich completo",
+		"price": "9 $",
+		"image": [
+			{
+				"url": "./assets/images/sandwich-completo.jpg",
+				"width": 350,
+				"height": 196
+
+				
+			}
+		
+		]
+	},
+	{
+		"id": 4,
+		"name": "Hamburguesa smash",
+		"price": "10.00 $",
+		"image": [
+			{
+				"url": "./assets/images/hamburguesa-smash.jpg",
+				"width": 491,
+				"height": 450
+			
+			}
+			
+		]
+	}
+]

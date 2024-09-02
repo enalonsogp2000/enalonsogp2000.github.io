@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+    <!--link favicon-->
+    <link rel="icon" type="image/png" href="../assets/images/favicon.jpg">
+    <!--Link to css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Box Icon-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <!-- Start Header-->
+        <header>
+            <nav class="nav container">
+                <!--Logotipo-->
+                <a href="../index.html" class="logo">
+                    <img src="../assets/images/logo.png" alt="Logotipo" title="Logotipo">
+                </a>
+                <!--Nav links-->
+                <ul class="navbar">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../views/galeria.html">Galeria</a></li>
+                    <li><a href="../views/presupuesto.html" class="active">Presupuesto</a></li>
+                    <li><a href="../views/contacto.html">Contacto</a></li>
+                </ul>
+                <!--Icons-->
+                <div class="nav-icons">
+                    <a href="" class="user"><i class="bx bxs-user"></i></a>
+                    <a href="" class="cart"><i class="bx bxs-cart"></i></a>
+                    
+                </div>
+            </nav>
+        </header>
+        <!-- End header-->
+        
+        <!-- Start main-->
+        <main class="presupuesto-main">
+            <h1>Solicitud de Presupuesto</h1>
+            <form id="presupuestoForm">
+                <section id="contacto">
+                    <h2>Datos de Contacto</h2>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="15" required>
+        
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" maxlength="40" required>
+        
+                    <label for="telefono">Teléfono de Contacto:</label>
+                    <input type="text" id="telefono" name="telefono" maxlength="9" required>
+        
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </section>
+        
+                <section id="presupuesto">
+                    <h2>Calcular Presupuesto</h2>
+        
+                    <label for="producto">Producto:</label>
+                    <select id="producto" name="producto">
+                        <option value="100">Producto A - $100</option>
+                        <option value="200">Producto B - $200</option>
+                        <option value="300">Producto C - $300</option>
+                    </select>
+        
+                    <label for="plazo">Plazo (meses):</label>
+                    <input type="number" id="plazo" name="plazo" min="1" max="12" value="1">
+        
+                    <h3>Extras:</h3>
+                    <input type="checkbox" id="extra1" name="extra1" value="50" class="extra">
+                    <label for="extra1">Extra 1 - $50</label><br>
+        
+                    <input type="checkbox" id="extra2" name="extra2" value="75" class="extra">
+                    <label for="extra2">Extra 2 - $75</label><br>
+        
+                    <input type="checkbox" id="extra3" name="extra3" value="100" class="extra">
+                    <label for="extra3">Extra 3 - $100</label><br>
+        
+                    <div class="total" id="totalPresupuesto">$0</div>
+                </section>
+        
+                <section id="condiciones">
+                    <h2>Condiciones de privacidad</h2>
+                    <input type="checkbox" id="aceptarcondiciones" name="condiciones" required>
+                    <label for="aceptarcondiciones">Acepto las condiciones de privacidad</label>
+                </section>
+                
+        
+                <div class="buttons">
+                    <input type="submit" value="Enviar Presupuesto">
+                    <input type="reset" value="Resetear Formulario">
+                </div>
+            </form>
+        </main>
+               
+        <!--End main-->
+       
+        <!--Start footer-->
+             <!--Foster-->
+     <footer>
+        <div class="footer_main">
+            <div class="footer_tag">
+                <h2>Localización</h2>
+                <p>España</p>
+                <p>Italai</p>
+                <p>Francia</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Enlaces Rápidos</h2>
+                <p>Inicio</p>
+                <p>Galeria</p>
+                <p>Presupuestos</p>
+                <p>Contacto</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Contacto</h2>
+                <p>+34 12 3456 789</p>
+                <p>+34 25 5568456</p>
+                <p>johndoe123@gmail.com</p>
+                <p>comida_casera@gmail.com</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Nuestros Servicios</h2>
+                <p>Entrega rápida</p>
+                <p>Pagos fáciles</p>
+                <p>24 x 7 Servicios</p>
+            </div>
+            <div class="footer_tag">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.facebook.com"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <div class="footer_tag">
+                <h2>Aviso Legal</h2>
+                <p>Este sitio web es solo un ejemplo de una prueba web.</p> 
+            </div>
+        </div>
+    </footer>   
+
+
+
+
+
+
+
+
+
+        <!--script presupuesto-->
+        <script src="/js/presupuesto.js"></script>
+</body>
+</html>
